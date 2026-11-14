@@ -1,0 +1,4 @@
+model,test_accuracy_percent,test_loss,mean_inference_ms_per_image,checkpoint_size_mb,device,test_images
+FP32,84.9000,0.440963,13.093235,42.7001,cpu,10000
+PTQ-INT8,85.0000,0.441982,8.668671,10.8489,cpu,10000
+QAT-INT8,85.3500,0.434722,8.739672,10.8489,cpu,10000
